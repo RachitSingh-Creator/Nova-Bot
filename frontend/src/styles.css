@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+
+.dark body {
+  color-scheme: dark;
+}
+
+.prose pre {
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  overflow-x: auto;
+}
+
+select,
+option,
+optgroup {
+  color: #0f172a;
+  background-color: #ffffff;
+}
+
+.dark select,
+.dark option,
+.dark optgroup {
+  color: #e2e8f0;
+  background-color: #0f172a;
+}

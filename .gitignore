@@ -1,0 +1,22 @@
+# env secrets
+.env
+**/.env
+
+# dependencies/build
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# local data
+*.db
+*.sqlite3
+
+# IDE/system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

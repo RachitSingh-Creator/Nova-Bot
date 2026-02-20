@@ -1,0 +1,7 @@
+{
+    "max_tokens":  80,
+    "message":  "hello",
+    "conversation_id":  8,
+    "model":  "gemini-2.5-flash",
+    "temperature":  0.7
+}
